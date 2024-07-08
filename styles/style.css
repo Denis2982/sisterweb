@@ -163,6 +163,10 @@ audio {
 	margin: 10px auto;
 }
 
+.wish_audio {
+	z-index: 800;
+}
+
 
 /* Wish------------------------------------------ */
 
@@ -182,9 +186,9 @@ audio {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 15px 30px;
-	margin-bottom: 20px;
-	font-size: 30px;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	font-size: 26px;
 	letter-spacing: 2px;
 	text-align: center;
 
