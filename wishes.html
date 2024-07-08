@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="stylesheet" href="./styles/media.css" />
+		<title>Пожелания Анюте</title>
+	</head>
+	<body>
+		<div class="main">
+			<div class="header" data-aos="fade-down" data-aos-delay="500" data-aos-duration="500">
+				<div class="container">
+					<div class="header__inner">
+						<ul class="nav">
+							<li class="nav__item"><a href="/">Главная</a></li>
+							<li class="nav__item"><a href="/photo.html">Фото</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="wish__inner">
+				<div class="container">
+					<div id="01" class="wish__card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">от бабушки Ани</div>
+					<div id="02" class="wish__card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2000">от Мамы</div>
+					<div id="03" class="wish__card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">от Дениса и Яси</div>
+					<div id="04" class="wish__card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2000">от коллектива Raiffeisen Bank</div>
+				</div>
+			</div>
+
+			<div class="pop-up">
+				<div class="close">
+					<img src="./img/close.svg" alt="" />
+				</div>
+				<video controls src="./img/wish/01.mp4"></video>
+			</div>
+			<video autoplay muted loop playsinline class="bg-videowish">
+				<source src="./img/bg.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="./js/script-wish.js"></script>
+	</body>
+</html>
